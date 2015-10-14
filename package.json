@@ -1,0 +1,27 @@
+{
+  "name": "jenkins_nodejs_test",
+  "version": "1.0.0",
+  "description": "just for testing",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuyanxin/jenkins_nodejs_test.git"
+  },
+  "keywords": [
+    "jenkins",
+    "nodejs",
+    "test"
+  ],
+  "author": "wuyanxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuyanxin/jenkins_nodejs_test/issues"
+  },
+  "homepage": "https://github.com/wuyanxin/jenkins_nodejs_test#readme"
+}
