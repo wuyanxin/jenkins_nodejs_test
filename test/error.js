@@ -4,7 +4,7 @@
  * @author wuyanxin
  * @date  15/10/14
  * @description
- *
+ * test
  */
 
 var assert = require('assert');
