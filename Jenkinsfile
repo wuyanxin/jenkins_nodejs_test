@@ -1,4 +1,3 @@
-
 node (){
   stage 'Build and Test'
   checkout scm
