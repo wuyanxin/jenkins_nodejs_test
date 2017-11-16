@@ -1,5 +1,11 @@
-node (){
-  stage 'Build and Test'
-  checkout scm
-  sh 'mvn clean package'
+
+pipeline{
+  agent any
+  stages{
+    stage('Build'){
+      steps{
+        bat 'set'
+      }
+    }
+  }
 }
