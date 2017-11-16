@@ -1,5 +1,10 @@
-node(){
-  stage 'Build and Test'
-  checkout scm
-  bat 'mvn clean package'
+pipeline {
+    agent { docker 'node:6.3' }
+    stages {
+        stage('build') {
+            steps {
+                sh 'npm --version'
+            }
+        }
+    }
 }
