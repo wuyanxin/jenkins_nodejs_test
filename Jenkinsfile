@@ -31,8 +31,8 @@ node {
         echo 'npm version:'
         bat 'npm -v'
 
-        echo 'jasmine-node version:'
-        bat 'jasmine-node --version'
+        //echo 'jasmine-node version:'
+        //bat 'jasmine-node --version'
 
         bat 'npm run test'
 
